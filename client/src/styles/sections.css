@@ -905,10 +905,57 @@
         .footer-links a:hover {
             color: var(--accent-cyan);
         }
+.about-image-block {
+    width: 100%;
+    height: 700px;
+    border-radius: 28px;
+    overflow: hidden;
+    border: 1px solid rgba(37, 99, 255, 0.25);
+    background: rgba(10, 18, 40, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.about-profile-image {
+    width: 100%;
+    height: 100%;
+    /* IMPORTANT */
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    border-radius: 28px;
+}
+
+    .about-image-block:hover .about-profile-image {
+        transform: scale(1.03);
+    }
 @media (max-width: 600px) {
     .footer-content {
         flex-direction: column;
         text-align: center;
     }
+
+.about-image-block {
+        width: 100%;
+        border-radius: 28px;
+        overflow: hidden;
+        border: 1px solid rgba(37, 99, 255, 0.25);
+        background: rgba(10, 18, 40, 0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-profile-image {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 28px;
+    }
+
+    .about-image-block:hover .about-profile-image {
+        transform: scale(1.03);
+    }    
 }
+

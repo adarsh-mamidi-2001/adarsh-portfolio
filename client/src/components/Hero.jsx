@@ -41,17 +41,16 @@ const Hero = () => {
                         </motion.h1>
 
                         <motion.div className="hero-role" variants={fadeUp} custom={0.3}>
-                            <span>Computational Mechanics</span>
+                            <span>Simulation Engineer</span>
                             <span className="role-sep"></span>
-                            <span>Multiphysics Simulation</span>
+                            <span>Power & Thermal Systems</span>
                             <span className="role-sep"></span>
-                            <span>FEA Research</span>
+                            <span>CAE Analysis</span>
                         </motion.div>
 
                         <motion.p className="hero-tagline" variants={fadeUp} custom={0.4}>
-                            Building advanced simulation-driven engineering solutions using COMSOL, ABAQUS,
-                            thermal analysis, and computational mechanics — from locomotive traction systems
-                            to fracture mechanics.
+                            Building simulation-driven engineering solutions across power electronics, thermal systems, structural analysis,
+                            and advanced CAE using COMSOL, ABAQUS, MATLAB, and engineering-first problem solving.
                         </motion.p>
 
                         <motion.div className="hero-stats" variants={fadeUp} custom={0.5}>
@@ -69,7 +68,7 @@ const Hero = () => {
                                 <span className="hero-stat-label">Research Papers</span>
                             </div>
                             <div className="hero-stat">
-                                <span className="hero-stat-number">8.52</span>
+                                <span className="hero-stat-number">9.00</span>
                                 <span className="hero-stat-label">M.Tech CGPA</span>
                             </div>
                         </motion.div>
@@ -118,11 +117,12 @@ const Hero = () => {
                                 />
                             </div>
 
-                            {/* Floating tech tags */}
+                            {/* Floating tech tags 
                             <div className="hero-floating-tag hero-floating-tag-1">COMSOL Multiphysics</div>
                             <div className="hero-floating-tag hero-floating-tag-2">ABAQUS FEA</div>
                             <div className="hero-floating-tag hero-floating-tag-3">Thermal Analysis</div>
                             <div className="hero-floating-tag hero-floating-tag-4">GATE AIR 1008</div>
+                            */}
                         </div>
                     </motion.div>
                 </div>

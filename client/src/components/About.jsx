@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import '../styles/sections.css';
-
+import profileImage from '../assets/profile2.jpg';
 const fadeUp = {
     hidden: { opacity: 0, y: 40 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: [0.4, 0, 0.2, 1] } },
@@ -43,7 +43,11 @@ const About = () => {
                         transition={{ duration: 0.7, delay: 0.15 }}
                     >
                         <div className="about-image-block">
-                            <span className="about-initials-large">MAK</span>
+                            <img
+                                src={profileImage}
+                                alt="Mamidi Adarsh Kumar"
+                                className="about-profile-image"
+                            />
                         </div>
 
                         <div className="about-meta">
